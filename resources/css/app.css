@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Debug. Add this to any element to see the outline of the element */
+.db {
+    @apply outline outline-red-300;
+}
