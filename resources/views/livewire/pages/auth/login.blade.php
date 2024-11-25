@@ -76,7 +76,7 @@ new #[Layout('layouts.guest')] class extends Component
         />
 
         <div class="space-y-2">
-            <flux:button variant="primary" class="w-full">
+            <flux:button type="submit" variant="primary" class="w-full">
                 {{ __('Sign in') }}
             </flux:button>
 
