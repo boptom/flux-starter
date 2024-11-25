@@ -75,7 +75,7 @@ new class extends Component
                 <flux:navmenu>
                     <flux:navmenu.item
                         href="{{ route('profile') }}"
-                        icon="user"
+                        icon="user-circle"
                     >
                         Profile
                     </flux:navmenu.item>
@@ -102,6 +102,10 @@ new class extends Component
         <flux:main>
             {{ $slot }}
         </flux:main>
+
+        @persist('toast')
+            <flux:toast />
+        @endpersist
 
         @fluxScripts
     </body>
