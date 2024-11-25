@@ -82,7 +82,7 @@ new class extends Component
 
                     <flux:menu.separator />
 
-                    @volt
+                    @volt('logout')
                         <flux:navmenu.item
                             wire:click="logout"
                             icon="arrow-right-start-on-rectangle"
